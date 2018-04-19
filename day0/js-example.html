@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <!--onclick event handler will call the function when the button is clicked-->
+    <button onclick="showText()">Show</button>
+    <button onclick="hideText()">Hide</button>
+
+    <p id="paragraph1"></p>
+
+    <script>
+        function showText() {
+            // This function sets inner text and style of the p tag
+            var p = document.getElementById("paragraph1");
+            p.innerText = "Hello";
+            p.style.color = 'purple';
+            p.style.fontFamily = 'cursive';
+            p.style.fontSize = '30px';
+            // This property is to show the p tag after its being hidden
+            p.style.display = 'block';
+        }
+
+        function hideText() {
+            // This function hides the p tag
+            var p = document.getElementById("paragraph1");
+            p.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

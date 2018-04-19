@@ -1,0 +1,51 @@
+#first-heading {
+    color: red;
+}
+
+#second-heading {
+    color: green;
+}
+
+h1 {
+    color: blue;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#div1 {
+    background-color: blue;
+    color: red;
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid red;
+
+    border-radius: 100px;
+}
+
+#google-image {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
