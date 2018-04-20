@@ -1,0 +1,17 @@
+#outer-div {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+
+
+    padding: 50px;
+    margin: 50px;
+
+    border: 20px solid yellow;
+}
+
+#inner-div {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
