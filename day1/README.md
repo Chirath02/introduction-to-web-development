@@ -5,7 +5,7 @@
 - id
 - class
 
-##Lengths and Percentages
+## Lengths and Percentages
 
 - px (such as font-size: 12px) is the unit for pixels.
 - em (such as font-size: 2em) is the unit for the calculated 
@@ -42,7 +42,7 @@ something, whereas padding is the space inside something.
 ### Box Shadows
 
 ```css
-box-shadow: 5px 5px 3px 1px #999
+box-shadow: 5px 5px 3px 1px grey;
 ```
 - horizontal offset — how far the shadow is nudged to the right.
 - vertical offset — how far the shadow is nudged downwards.
@@ -53,7 +53,7 @@ box-shadow: 5px 5px 3px 1px #999
 ### Text Shadows
 
 ```css
-text-shadow: -2px 2px 2px #999;
+text-shadow: -2px 2px 2px grey;
 ```
 Same as above. Except that there is no spread-distance.
 
